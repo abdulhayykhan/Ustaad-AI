@@ -1,0 +1,9 @@
+flet>=0.85.0,<0.91.0
+fastapi
+uvicorn
+sqlalchemy
+pydantic
+googlemaps
+python-dotenv
+requests
+google-generativeai
