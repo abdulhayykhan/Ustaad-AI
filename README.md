@@ -1,5 +1,7 @@
 # Ustaad-AI 🛠️🤖
 
+[![Download APK](https://img.shields.io/badge/Download-Android%20APK-green?style=for-the-badge&logo=android)](https://github.com/abdulhayykhan/Ustaad-AI/releases/download/v1.0.0/frontend.apk)
+
 **Ustaad-AI** is a premium, fully-orchestrated AI service platform tailored for the informal economy in Karachi, Pakistan. The platform leverages Google's Gemini models to translate complex, natural language requests (often in Roman Urdu) into highly specific vendor matches, factoring in geolocation, pricing, urgency, and historic ratings via a dynamic 6-factor matchmaking algorithm.
 
 ## Features ✨
