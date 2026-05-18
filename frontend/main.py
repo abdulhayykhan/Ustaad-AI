@@ -15,7 +15,7 @@ if not os.path.exists("assets/logo.png"):
     except Exception:
         pass
 
-API_URL = "http://localhost:8000"
+API_URL = "https://ustaad-ai-620054685556.europe-west1.run.app"
 
 def main(page: ft.Page):
     page.title = "Ustaad-AI"
