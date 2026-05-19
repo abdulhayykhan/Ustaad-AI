@@ -6,4 +6,4 @@ pydantic
 googlemaps
 python-dotenv
 requests
-google-generativeai
+google-genai

@@ -110,6 +110,9 @@ Edit `.env`:
 ```env
 GEMINI_API_KEY=your_gemini_api_key_here
 GOOGLE_MAPS_API_KEY=your_google_maps_api_key_here
+DATABASE_URL=sqlite:///./ustaad.db
+CORS_ALLOW_ORIGINS=http://localhost:8550,http://127.0.0.1:8550
+USTAAD_API_URL=http://localhost:8000
 ```
 
 ### 3. Install Dependencies

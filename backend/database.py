@@ -2,13 +2,16 @@ import os
 from sqlalchemy import create_engine
 from sqlalchemy.orm import sessionmaker, declarative_base
 
-# Define the database URL. We use SQLite for the hackathon prototype.
-DATABASE_URL = "sqlite:///./ustaad.db"
+# Allow overriding DB connection in production while keeping a local default.
+# Use /tmp/ for Cloud Run compatibility (read-only root filesystem)
+DATABASE_URL = os.getenv("DATABASE_URL", "sqlite:////tmp/ustaad.db")
+
+connect_args = {"check_same_thread": False} if DATABASE_URL.startswith("sqlite") else {}
 
 # Create the SQLAlchemy engine. 
 # check_same_thread=False is needed for SQLite to handle multi-threaded requests in FastAPI.
 engine = create_engine(
-    DATABASE_URL, connect_args={"check_same_thread": False}
+    DATABASE_URL, connect_args=connect_args
 )
 
 # Create a SessionLocal class for creating database sessions
