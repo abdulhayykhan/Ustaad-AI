@@ -1,6 +1,6 @@
 # Ustaad-AI 🛠️🤖
 
-[![Download APK](https://img.shields.io/badge/Download-Android%20APK-green?style=for-the-badge&logo=android)](https://github.com/abdulhayykhan/Ustaad-AI/releases/download/v1.0.0/frontend.apk)
+[![Download APK](https://img.shields.io/badge/Download-Android%20APK-green?style=for-the-badge&logo=android)](https://github.com/abdulhayykhan/Ustaad-AI/releases/download/v1.0.0/ustaad-ai.apk)
 [![Built for](https://img.shields.io/badge/Built%20for-AI%20Seekho%202026%20Antigravity%20Hackathon-blue?style=for-the-badge)](https://github.com/abdulhayykhan/Ustaad-AI)
 [![Python](https://img.shields.io/badge/Python-3.11-yellow?style=for-the-badge&logo=python)](https://www.python.org/)
 [![Gemini](https://img.shields.io/badge/AI%20Core-Gemini%202.0%20Flash-orange?style=for-the-badge&logo=google)](https://ai.google.dev/)
